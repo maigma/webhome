@@ -31,13 +31,16 @@ ALLOWED_HOSTS = ['159.65.54.168']
 # Application definition
 
 INSTALLED_APPS = [
-    'maps',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+
+    'map',
+    'api',
 ]
 
 MIDDLEWARE = [

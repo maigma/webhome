@@ -4,4 +4,4 @@ from django.shortcuts import render
 
 def maps(request):
 
-    return render(request, "index.html", {})
+    return render(request, "map.html", {})

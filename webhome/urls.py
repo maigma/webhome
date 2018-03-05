@@ -18,7 +18,8 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^maps', include('maps.urls')),
+    url(r'^map/$', include('map.urls')),
+    url(r'^api/$', include('api.urls')),
 ]
 
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
