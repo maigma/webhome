@@ -3,5 +3,7 @@ from django.shortcuts import render
 # Create your views here.
 
 def maps(request):
-
-    return render(request, "map.html", {})
+	
+    template = "map/map-view.html"
+    context = {}
+    return render(request, template, context)

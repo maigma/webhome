@@ -1,5 +1,5 @@
 from django.conf.urls import url
-from api import views
+from . import views
 
 urlpatterns = [
     url(r'^$', views.apina, name='apina'),
